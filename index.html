@@ -1,1 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXIVM - Precision-Engineered Cybersecurity</title>
+    <meta name="description" content="High-agency cybersecurity solutions for secure infrastructure, AI-driven security, and private communications.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'axivm-red': '#dc2626',
+                        'axivm-gray': '#374151',
+                        'axivm-dark': '#111827',
+                        'axivm-darker': '#0f172a'
+                    },
+                    animation: {
+                        'glow': 'glow 2s ease-in-out infinite alternate',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+                    },
+                    keyframes: {
+                        glow: {
+                            '0%': { boxShadow: '0 0 5px #dc2626, 0 0 10px #dc2626, 0 0 15px #dc2626' },
+                            '100%': { boxShadow: '0 0 10px #dc2626, 0 0 20px #dc2626, 0 0 30px #dc2626' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #111827 50%, #1f2937 100%);
+        }
+        .glow-text {
+            text-shadow: 0 0 10px #dc2626, 0 0 20px #dc2626, 0 0 30px #dc2626;
+        }
+        .border-glow {
+            border: 1px solid #dc2626;
+            box-shadow: 0 0 10px #dc2626, inset 0 0 10px rgba(220, 38, 38, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-axivm-darker text-gray-100 min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-axivm-dark/90 backdrop-blur-sm border-b border-axivm-red/20 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-axivm-red glow-text">AXIVM</div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#capabilities" class="text-gray-300 hover:text-axivm-red px-3 py-2 text-sm font-medium transition-colors">Capabilities</a>
+                        <a href="#contact" class="text-gray-300 hover:text-axivm-red px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-8">
+                <div class="text-6xl md:text-8xl font-black text-axivm-red glow-text mb-4">AXIVM</div>
+                <div class="text-xl md:text-2xl text-gray-300 mb-6">
+                    <span class="text-axivm-red">Precision-Engineered</span> Cybersecurity
+                </div>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+                    High-agency infrastructure hardening, AI-driven threat detection, and secure communications for organizations that demand uncompromising security.
+                </p>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#capabilities" class="bg-axivm-red hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 border-glow hover:scale-105">
+                    Explore Capabilities
+                </a>
+                <a href="#contact" class="border border-axivm-red text-axivm-red hover:bg-axivm-red hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+                    Direct Contact
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="py-16 px-4 sm:px-6 lg:px-8 bg-axivm-dark">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Strategic Capabilities</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Mission-critical security solutions engineered for maximum effectiveness
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Network Hardening -->
+                <div class="bg-axivm-darker border border-axivm-gray/30 rounded-lg p-8 hover:border-glow transition-all duration-300 group">
+                    <div class="text-axivm-red text-4xl mb-4">🛡️</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Network Hardening</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Comprehensive infrastructure fortification with advanced threat modeling, zero-trust architecture, and continuous vulnerability assessment.
+                    </p>
+                    <div class="mt-6">
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li>• Advanced firewall configuration</li>
+                            <li>• Intrusion detection systems</li>
+                            <li>• Network segmentation</li>
+                            <li>• Continuous monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- AI Integration -->
+                <div class="bg-axivm-darker border border-axivm-gray/30 rounded-lg p-8 hover:border-glow transition-all duration-300 group">
+                    <div class="text-axivm-red text-4xl mb-4">🤖</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">AI Integration</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Next-generation AI-driven security with machine learning threat detection, behavioral analysis, and automated response systems.
+                    </p>
+                    <div class="mt-6">
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li>• ML threat detection</li>
+                            <li>• Behavioral analysis</li>
+                            <li>• Automated responses</li>
+                            <li>• Predictive security</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Secure Communications -->
+                <div class="bg-axivm-darker border border-axivm-gray/30 rounded-lg p-8 hover:border-glow transition-all duration-300 group">
+                    <div class="text-axivm-red text-4xl mb-4">🔐</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Secure Communications</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        End-to-end encrypted communication channels with quantum-resistant protocols and secure key management systems.
+                    </p>
+                    <div class="mt-6">
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li>• End-to-end encryption</li>
+                            <li>• Quantum-resistant protocols</li>
+                            <li>• Secure key management</li>
+                            <li>• Private channels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Model Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 gradient-bg">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Trust-Based Installation</h2>
+            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                We operate on a foundation of mutual trust. No contracts, no complexity. Direct engagement with organizations that understand the value of uncompromising security.
+            </p>
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="text-center">
+                    <div class="text-axivm-red text-3xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Rapid Deployment</h3>
+                    <p class="text-gray-400">Streamlined implementation with minimal disruption to your operations.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-axivm-red text-3xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Precision Focus</h3>
+                    <p class="text-gray-400">Targeted solutions designed for your specific threat landscape.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-axivm-dark">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Secure Your Infrastructure?</h2>
+            <p class="text-xl text-gray-400 mb-8">
+                Contact us directly for a confidential consultation. No forms, no bureaucracy — just direct communication with our security team.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <a href="mailto:contact@axivm.com" class="bg-axivm-red hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 border-glow hover:scale-105">
+                    Direct Email
+                </a>
+                <a href="tel:+1-555-SECURE" class="border border-axivm-red text-axivm-red hover:bg-axivm-red hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+                    Secure Line
+                </a>
+            </div>
+            
+            <div class="text-sm text-gray-500">
+                <p>Trust-based engagement • No contracts • Direct communication</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-axivm-darker border-t border-axivm-gray/20 py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-axivm-red font-bold text-xl mb-4 md:mb-0">AXIVM</div>
+                <div class="text-gray-400 text-sm">
+                    © 2024 AXIVM. Precision-engineered cybersecurity solutions.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth scrolling script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-axivm-dark');
+                nav.classList.remove('bg-axivm-dark/90');
+            } else {
+                nav.classList.remove('bg-axivm-dark');
+                nav.classList.add('bg-axivm-dark/90');
+            }
+        });
+    </script>
+</body>
+</html>
